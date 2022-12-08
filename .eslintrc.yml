@@ -1,4 +1,3 @@
-{
 env:
   browser: true
   es2021: true
@@ -10,9 +9,8 @@ parserOptions:
 
 rules:
   no-console: 0
-  import/extensions: 
+  import/extensions:
     - error
     - ignorePackages
     - js: always
     - linebreak-style: ["error", "windows"]
-}
