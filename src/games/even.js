@@ -1,13 +1,13 @@
-import gameEven from '../src/cli-even.js'
+import { getRandomNumber } from  '../index.js';
+import { phrases } from '../repeatingText.js';
 
-const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const isEven = (num) => num % 2 === 0;
 
 const round = () => {
-    const randomNumber = Math.round(Math.random() * 100);
-    const isEven = randomNumber % 2 === 0 ? 'yes' : 'no';
-    return [randomNumber, isEven];
+    const question = getRandomNumber(1, 100);
+    const correctAnswer = isEven(question) ? phrases.YES : phrases.NO;
+
+    return [question, correctAnswer];
 };
 
-const brainEven = () => gameEven(rules, round);
-
-export default brainEven;
+export default round;

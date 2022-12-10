@@ -1,5 +1,5 @@
-export default repeatingText = {
-    GREETINGS: 'Welcome to the Brain Games!',
+export const phrases = {
+    GREETING: 'Welcome to the Brain Games!',
     ASK_NAME: 'May I have your name? ',
     ANSWER: 'Your answer: ',
     CORRECT_ANSWER: 'Correct!',

@@ -1,17 +1,17 @@
 import readlineSync from 'readline-sync';
-import { repeatingText, greetings, matter, wrongAnswer, congratulation } from './repeatingText.js';
+import { phrases, greetings, matter, wrongAnswer, congratulation } from '../src/repeatingText.js';
 
 const logicGame = (description, getRound) => {
-    console.log(repeatingText.GREETINGS);
-    const nameUser = readlineSync.question(repeatingText.ASK_NAME);
+    console.log(phrases.GREETING);
+    const nameUser = readlineSync.question(phrases.ASK_NAME);
     console.log(greetings(nameUser));
     console.log(description);
     for (let i = 1; i <= 3; i += 1) {
         const [question, correctAnswer] = getRound();
         console.log(matter(question));
-        const userAnswer = readlineSync.question(repeatingText.ANSWER);
+        const userAnswer = readlineSync.question(phrases.ANSWER);
         if (userAnswer === correctAnswer) {
-            console.log(repeatingText.CORRECT_ANSWER);
+            console.log(phrases.CORRECT_ANSWER);
         } else {
             console.log(wrongAnswer(userAnswer, correctAnswer, nameUser));
             return;
@@ -21,3 +21,4 @@ const logicGame = (description, getRound) => {
 };
 
 export default logicGame;
+export const getRandomNumber = (min, max) => Math.round(Math.random() * (max - min)) + min;
