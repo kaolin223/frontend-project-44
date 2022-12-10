@@ -10,6 +10,6 @@ export default repeatingText = {
 };
 
 export const greetings = (nameUser) => `Hello, ${nameUser}!`;
-export const question = (questions) => `Question: ${questions}`;
+export const matter = (question) => `Question: ${question}`;
 export const wrongAnswer = (userAnswer, correctAnswer, nameUser) => `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${nameUser}!`;
 export const congratulation = (nameUser) => `Congratulations ${nameUser}!`;
