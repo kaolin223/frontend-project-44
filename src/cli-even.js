@@ -11,7 +11,7 @@ const gameEven = (gameRules, gameQustion) => {
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('Your answer: ');
     if (String(answer) !== String(playerAnswer)) {
-      return console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again ${nameUser}!`);
+      return console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${nameUser}!`);
     } 
     console.log('Correct!');
   }
