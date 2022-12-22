@@ -7,7 +7,8 @@ export const phrases = {
     NO: 'no',
     DESCRIPTION_EVEN_GAME: 'Answer "yes" if number is even, otherwise answer "no".',
     DESCRIPTION_CALC_GAME: 'What is the result of the expression?',
-    DESCRIPTION_GCD_GAME: 'Find the greatest common divisor of given numbers.'
+    DESCRIPTION_GCD_GAME: 'Find the greatest common divisor of given numbers.',
+    DESCRIPTION_PROGRESSED_GAME: 'What number is missing in the progression?'
 };
 
 export const greetings = (nameUser) => `Hello, ${nameUser}!`;
