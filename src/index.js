@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 import { phrases, greetings, matter, wrongAnswer, congratulation } from '../src/repeatingText.js';
 
-const logicGame = (description, getRound) => {
+export default logicGame = (description, getRound) => {
     console.log(phrases.GREETING);
     const nameUser = readlineSync.question(phrases.ASK_NAME);
     console.log(greetings(nameUser));
@@ -20,5 +20,4 @@ const logicGame = (description, getRound) => {
     console.log(congratulation(nameUser));
 };
 
-export default logicGame;
 export const getRandomNumber = (min, max) => Math.round(Math.random() * (max - min)) + min;
