@@ -15,4 +15,4 @@ export const phrases = {
 export const greetings = (nameUser) => `Hello, ${nameUser}!`;
 export const matter = (question) => `Question: ${question}`;
 export const wrongAnswer = (userAnswer, correctAnswer, nameUser) => `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${nameUser}!`;
-export const congratulation = (nameUser) => `Congratulations ${nameUser}!`;
+export const congratulation = (nameUser) => `Congratulations, ${nameUser}!`;
