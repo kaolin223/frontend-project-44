@@ -1,5 +1,11 @@
 import readlineSync from 'readline-sync';
-import { phrases, greetings, matter, wrongAnswer, congratulation } from '../src/repeatingText.js';
+import { 
+phrases, 
+greetings, 
+matter, 
+wrongAnswer, 
+congratulation
+ } from '../src/repeatingText.js';
 
 const logicGame = (description, getRound) => {
   console.log(phrases.GREETING);

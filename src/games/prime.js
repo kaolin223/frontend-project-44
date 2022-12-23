@@ -8,13 +8,12 @@ const prime = (num) => {
     }
   }
   return num > 1;
-  };
-  
+};
   const primeRound = () => {
   const number = getRandomNumber(1, 100);
   const correctAnswer = prime(number) ? phrases.YES : phrases.NO;
   const question = number;
-    return [question, correctAnswer]; 
+  return [question, correctAnswer]; 
 };
 
 export default primeRound;

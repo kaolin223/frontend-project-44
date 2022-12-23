@@ -9,7 +9,7 @@ export const phrases = {
   DESCRIPTION_CALC_GAME: 'What is the result of the expression?',
   DESCRIPTION_GCD_GAME: 'Find the greatest common divisor of given numbers.',
   DESCRIPTION_PROGRESSED_GAME: 'What number is missing in the progression?',
-  DESCRIPTION_PRIME_GAME: 'Answer "yes" if given number is prime. Otherwise answer "no".'
+  DESCRIPTION_PRIME_GAME: 'Answer "yes" if given number is prime. Otherwise answer "no".',
 };
 
 export const greetings = (nameUser) => `Hello, ${nameUser}!`;
