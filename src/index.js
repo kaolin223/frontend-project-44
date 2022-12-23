@@ -5,7 +5,7 @@ import {
   matter,
   wrongAnswer,
   congratulation
-} from '../repeatingText.js';
+} from '../src/repeatingText.js';
 
 const logicGame = (description, getRound) => {
   console.log(phrases.GREETING);
