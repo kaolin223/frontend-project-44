@@ -20,5 +20,5 @@ const logicGame = (description, getRound) => {
     console.log(congratulation(nameUser));
 };
 
-export default logicGame();
+export default logicGame;
 export const getRandomNumber = (min, max) => Math.round(Math.random() * (max - min)) + min;
