@@ -4,8 +4,8 @@ import {
   greetings,
   matter,
   wrongAnswer,
-  congratulation
-} from '../src/repeatingText.js';
+  congratulation,
+} from './repeatingText.js';
 
 const logicGame = (description, getRound) => {
   console.log(phrases.GREETING);
