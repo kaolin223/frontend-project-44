@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/kaolin223/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/kaolin223/frontend-project-44/actions)",
+  "description": "This is logic-game. her name 'brain-games'",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "author": "",
+  "author": "Mikhail Kuptsov, m-kuptsov@inbox.ru",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kaolin223/frontend-project-44/issues"
