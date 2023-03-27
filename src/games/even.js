@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../index.js';
+import { getRandomNumber } from '../utilits.js';
 import { phrases } from '../repeatingText.js';
 
 const isEven = (num) => num % 2 === 0;
