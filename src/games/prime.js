@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utilits.js';
+import getRandomNumber from '../utilits.js';
 import { phrases } from '../repeatingText.js';
 
 const prime = (num) => {

@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utilits.js';
+import getRandomNumber from '../utilits.js';
 
 const calcRound = () => {
   const firstOperand = getRandomNumber(1, 99);
