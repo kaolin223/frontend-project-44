@@ -1,4 +1,4 @@
-import getRandomNumber from '../utilits.js';
+import { getRandomNumber } from '../utilits.js';
 
 const gcd = (num1, num2) => (!num2 ? num1 : gcd(num2, num1 % num2));
 
