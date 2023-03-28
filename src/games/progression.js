@@ -1,4 +1,4 @@
-import getRandomNumber from '../utilits.js';
+import { getRandomNumber } from '../utilits.js';
 
 const progressedRound = () => {
   const start = getRandomNumber(1, 100);
