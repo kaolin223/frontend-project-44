@@ -29,14 +29,70 @@ make brain-even
 ## brain-even
 [![asciicast](https://asciinema.org/a/UjCXNwaQO8CeKVqcpmqGqde2Z.svg)](https://asciinema.org/a/UjCXNwaQO8CeKVqcpmqGqde2Z)
 
+### brain-calc
+
+Mission: write result of the expression
+
+To run the game:
+```bash
+brain-calc
+```
+or
+
+```bash
+make brain-calc
+```
+
 ## brain-calc
-https://asciinema.org/a/T3VNrUvU6jW1o4U0zlv5BNQ5y
+[![asciicast](https://asciinema.org/a/fkAw4Mftx6J2ppYu5JiEZhuBw.svg)](https://asciinema.org/a/fkAw4Mftx6J2ppYu5JiEZhuBw)
+
+### brain-gcd
+
+Mission: find the greatest common divisor of given numbers
+
+To run the game:
+```bash
+brain-qcd
+```
+
+or
+```bash
+make brain-qcd
+```
 
 ## brain-gcd
-https://asciinema.org/a/UUYmmR1VTcgUbZKy4Np17VUtN
+[![asciicast](https://asciinema.org/a/UeiGUYbKcLBFjXbO12wH16Oc0.svg)](https://asciinema.org/a/UeiGUYbKcLBFjXbO12wH16Oc0)
+
+### brain-progression
+
+Mission: write missing number in the progression
+
+To run the game:
+```bash
+brain-progression
+```
+
+or
+```bash
+make brain-progression
+```
 
 ## brain-progression
-https://asciinema.org/a/Xeo0S0G1jmZjlAxrEkmC8I37q
+[![asciicast](https://asciinema.org/a/ZK7mdgqpUknY194pJBx28a9TL.svg)](https://asciinema.org/a/ZK7mdgqpUknY194pJBx28a9TL)
+
+### brain-prime
+
+Mission: answer 'yes' if given number is prime, otherwise answer 'no'
+
+To run the game:
+```bash
+brain-prime
+```
+
+or
+```bash
+make brain-prime
+```
 
 ## brain-prime
-https://asciinema.org/a/V4yW3ubL0f4n9xEX7Kib8IdxH
+[![asciicast](https://asciinema.org/a/bM8hofm7AFT9kwv5VXJWRxyiU.svg)](https://asciinema.org/a/bM8hofm7AFT9kwv5VXJWRxyiU)
