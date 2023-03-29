@@ -5,10 +5,16 @@
 
 <a href="https://codeclimate.com/github/kaolin223/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/01eb719acaab2cf1e46d/maintainability" /></a>
 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+</div>
+
 ## Setup
 ```bash
 make install
 ```
+
+## How 
 
 ## brain-even
 https://asciinema.org/a/SfCoKkmUn0ugNJQX713GGT6it
